@@ -1,0 +1,92 @@
+#piemenu {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#piemenu > svg {
+    width: 100%;
+    height: 100%;
+    margin:auto;
+}
+@media all and (min-width: 1201px) {
+//   header  {
+    
+//     font-weight:700;
+//     font-size:1.2em;
+// }
+#piemenu { 
+    height: 600px;
+    width: 600px;
+    margin:auto;
+    }
+}
+
+@media all and (min-width: 1201px) {
+  // header  {
+    
+  //   font-weight:700;
+  //   font-size:1.2em;
+  //}
+#piemenu { 
+    height: 600px;
+    width: 600px;
+    margin:auto;
+    }
+}
+@media all and (max-width: 1200px) and (min-width: 600px) {
+//   header  {
+    
+//     font-weight:700;
+//     font-size:1em;
+// }
+    #piemenu { 
+    height: 500px;
+    width: 500px;
+    margin:auto;
+    }
+}
+@media all and (max-width: 599px) and (min-width: 50px) {
+    // header  {
+    //     font-weight:700;
+    //     font-size:.9em;
+    // }
+    // header img {
+    //   height:50%;
+    //   width:50%;
+    // }
+    #piemenu { 
+    height: 260px;
+    width: 260px;
+    margin:auto;
+    
+    }
+}
+
+[class|=wheelnav-piemenu-slice-basic] { fill: #222222; stroke: black; }
+[class|=wheelnav-piemenu-slice-selected] { fill: #333333; stroke: black; }
+[class|=wheelnav-piemenu-slice-hover] { fill: #82CA92; stroke: none; fill-opacity: 0.77; cursor: pointer; }
+
+[class|=wheelnav-piemenu-title-basic] { fill: #fff; stroke: none; }
+[class|=wheelnav-piemenu-title-selected] { fill: #fff; stroke: none; }
+[class|=wheelnav-piemenu-title-hover] { fill: #222; stroke: none; cursor: pointer; }
+
+
+[class|=wheelnav-piemenu-title] > tspan { font-size: 1.3em; }
+
+
+
+
+[class|=wheelnav-piemenu-line-basic] { stroke: #444; stroke-width: 2; }
+[class|=wheelnav-piemenu-line-selected] { stroke: #444; stroke-width: 2; }
+[class|=wheelnav-piemenu-line-hover] { stroke: #222; stroke-width: 2; cursor: pointer; }
+
+.wheelnav-piemenu-spreader-in,
+.wheelnav-piemenu-spreader-out { fill: #444; stroke: #222;; stroke-width: 1; cursor: pointer; }
+.wheelnav-piemenu-spreadertitle-in,
+.wheelnav-piemenu-spreadertitle-out { fill: #82CA92; stroke: #444; cursor: pointer; }
+
+.wheelnav-piemenu-marker { stroke: #82CA92; stroke-width: 5; }
