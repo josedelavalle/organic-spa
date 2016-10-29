@@ -1102,6 +1102,66 @@ table {
   stroke: #82CA92;
   stroke-width: 5; }
 
+[class|=wheelnav-piemenu2-slice-basic] {
+  fill: #222222;
+  stroke: black; }
+
+[class|=wheelnav-piemenu2-slice-selected] {
+  fill: #333333;
+  stroke: black; }
+
+[class|=wheelnav-piemenu2-slice-hover] {
+  fill: #82CA92;
+  stroke: none;
+  fill-opacity: 0.77;
+  cursor: pointer; }
+
+[class|=wheelnav-piemenu2-title-basic] {
+  fill: #fff;
+  stroke: none; }
+
+[class|=wheelnav-piemenu2-title-selected] {
+  fill: #fff;
+  stroke: none; }
+
+[class|=wheelnav-piemenu2-title-hover] {
+  fill: #222;
+  stroke: none;
+  cursor: pointer; }
+
+[class|=wheelnav-piemenu2-title] > tspan {
+  font-size: 1.3em; }
+
+[class|=wheelnav-piemenu2-line-basic] {
+  stroke: #444;
+  stroke-width: 2; }
+
+[class|=wheelnav-piemenu2-line-selected] {
+  stroke: #444;
+  stroke-width: 2; }
+
+[class|=wheelnav-piemenu2-line-hover] {
+  stroke: #222;
+  stroke-width: 2;
+  cursor: pointer; }
+
+.wheelnav-piemenu2-spreader-in,
+.wheelnav-piemenu2-spreader-out {
+  fill: #444;
+  stroke: #222;
+  stroke-width: 1;
+  cursor: pointer; }
+
+.wheelnav-piemenu2-spreadertitle-in,
+.wheelnav-piemenu2-spreadertitle-out {
+  fill: #82CA92;
+  stroke: #444;
+  cursor: pointer; }
+
+.wheelnav-piemenu2-marker {
+  stroke: #82CA92;
+  stroke-width: 5; }
+
 * {
   box-sizing: border-box; }
 

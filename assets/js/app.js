@@ -44,14 +44,14 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
   });
 }]);
 
-app.controller('appController', function($scope, $route, $http, $location, $timeout) {
+app.controller('appController', function($scope, $route, $http, $location, $timeout, $filter) {
 	$scope.modalType = "one";
 	$scope.title = "b.jones";
 	$scope.subtitle = "organic spa";
 	$scope.modalTitle = $scope.title + " " + $scope.subtitle;
 	$scope.fb_page_id = "628344893968942";
 	$scope.access_token = "1691046484469603|dTJsfLPx5m5uppXQ4A5Flw49WFs";
-	$scope.fb_fields = "name,description,place,timezone,start_time,cover";
+	$scope.fb_fields = "name,description,place,timezone,start_time,cover,url";
 	$scope.fbURL = 
 	// $scope.news = serviceName.query;
 	$http.get("https://graph.facebook.com/v2.7/" + $scope.fb_page_id + "/events/attending/?fields=" + $scope.fb_fields + "&access_token=" + $scope.access_token)
@@ -134,4 +134,7 @@ app.factory('factoryName', function($http) {
       }
   };
 });
+
+
+
 
